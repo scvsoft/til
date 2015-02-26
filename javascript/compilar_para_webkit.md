@@ -7,9 +7,9 @@ Muchas veces eso es parte de la API core de node, entonces ni nos enteramos.
 
 Ahora, cuando querés usar una librería como [serialport](https://github.com/voodootikigod/node-serialport) la cosa se pone menos transparente.
 
-Hay una tool que se llama [node-gyp](https://github.com/TooTallNate/node-gyp) que es el compilador de add-ons nativos para node.
+Hay una herramienta que se llama [node-gyp](https://github.com/TooTallNate/node-gyp) que es el compilador de add-ons nativos para node.
 
-Algunos paquetes de npm usan por atras node-gyp o alguna de las tools creadas por encima de él:
+Algunos paquetes de npm usan por atras node-gyp o alguna de las herramientas creadas por encima de él:
 - node-pre-gyp puede buscar, publicar e instalar binarios ya compilados antes de buildearlos explícitamente
 - nw-gyp configura gyp y/o pre-gyp para un entorno puntual de [nwjs](nwjs.io) para no tener que específicarlo cada vez
 
