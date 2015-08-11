@@ -22,3 +22,10 @@ Compila las dependencias (cuando tenga sentido) para el runtime de node-webkit v
 
 Otra opción es una vez bajado el módulo ir a la carpeta correspondiente en node_modules y ejecutar node-gyp (o node-pre-gyp, etc) 
 con los mismos parametros desde esa carpeta puntual
+
+En el caso puntual de la librería serialport, esto fue lo que mejor funcionó para nosotros. Lo terminamos agregando al postinstall de npm
+
+    "scripts": {
+        "postinstall": "cd node_modules/serialport && node-pre-gyp --runtime=node-webkit --target=0.12.3"
+    },
+    
