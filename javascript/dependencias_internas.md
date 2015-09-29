@@ -37,7 +37,7 @@ prefijo "app/" y los segundos si.
 
 #### Bonus track: automatizando el proceso
 
-Este tipo de soluciones siempre conviene dejarlas automazidas. Después de todo, a nadie le gusta bajarse un proyecto y tener que
+Este tipo de soluciones siempre conviene dejarlas automatizadas. Después de todo, a nadie le gusta bajarse un proyecto y tener que
 hacer algo más que ejecutar los comandos estándar para bajar las dependencias y correrlo.
 
 El mejor lugar para hacer esto es claramente el package.json, sin dudas. Basta con agregar:
