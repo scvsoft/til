@@ -7,7 +7,8 @@
     "test": "jest",
     "build": "webpack build --mode=production",
     "build:dev": "webpack build --mode=development",
-    "lint": "eslint --fix lib/"
+    "lint": "eslint --fix lib/ test/",
+    "build:docs": "jsdoc -c jsdoc.json -r -t node_modules/better-docs -R ../README.md lib"
   },
   "author": "SCV",
   "license": "GPL-2.0",
